@@ -11,9 +11,9 @@ def birthdayCakeCandles(age_of_user):
     for count in candles_list:      # for excessing the element from the andles_list
         if count == maximum_high:  # checking and comparing if maximum_high is in the candles_list or not
             count_max_high+=1     #count increament if peviews condition is true
-    return "The maximum height of candles we have :  ",maximum_high, "units high \nCount of highest candle :  ",count_max_high
+    print("The maximum height of candles we have :  ",maximum_high, "units high \nCount of highest candle :  ",count_max_high)
 age_of_user=int(input(" Enter birthday peson's age :  "))  # taking user input for defining length of list
-print(birthdayCakeCandles(age_of_user ))
+birthdayCakeCandles(age_of_user )
 
 
 
