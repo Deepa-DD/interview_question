@@ -10,10 +10,10 @@ def nonDivisibleSubset(length_of_list):
                 sum=num+diviend   # doing sum of pair
                 if sum % divisor != 0:  # we ae checking here that the pair is divisible or not 
                     count+=1   # if pair is divisibe then count will increase by 1
-    return 'the count of peirs which is not divisible by  divisor is :',count
+    print( 'the count of peirs which is not divisible by  divisor is :',count)
 length_of_list=int(input(" How long list you want :   ")) # taking legnth from user
 divisor=int(input(" Enter the number for Divisor :   ")) # taking user input (divisor) so that i can check elememts is divisible by divisor or not
-print(nonDivisibleSubset(length_of_list))
+nonDivisibleSubset(length_of_list)
 
 
                 
